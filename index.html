@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#160d14">
+  <title>Our First Month ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- =========================================================
+       EDIT ZONE #1: OPENING SCREEN
+       Change the names and opening message below.
+  ========================================================== -->
+  <section id="intro" class="intro">
+    <div class="intro-card">
+      <p class="eyebrow">HAPPY FIRST MONTH NANDUUU</p>
+      <h1><span id="yourName">- FROM RIOS DAD</span> <span class="heart">♥</span> <span id="herName">RIOS MOM</span></h1>
+      <p class="intro-copy">I LOVE YOUUU BABYYY</p>
+      <button id="enterBtn" class="primary-btn">Open Our Story ♥</button>
+      <p class="tiny">Best viewed with sound on ✨</p>
+    </div>
+  </section>
+
+  <main id="mainContent" class="hidden">
+    <nav class="nav">
+      <a href="#home" class="logo">P ♥ N</a>
+      <div class="nav-links">
+        <a href="#memories">Memories</a>
+        <a href="#videos">Videos</a>
+        <a href="#reasons">Why You</a>
+        <a href="#letter">Letter</a>
+      </div>
+    </nav>
+
+    <section id="home" class="hero section">
+      <p class="eyebrow">USSSSSS</p>
+      <h2>Happy One Month,<br><em>my JAANUUU</em></h2>
+      <!-- EDIT ZONE #2: MAIN MESSAGE -->
+      <p class="lead">
+        This little corner of the internet is for ussssss
+      </p>
+      <a href="#memories" class="text-link">Start from the beginning ↓</a>
+    </section>
+
+    <section class="counter section">
+      <p class="eyebrow">WE'VE BEEN TOGETHER FOR</p>
+      <div class="counter-grid">
+        <div><strong id="days">30</strong><span>Days</span></div>
+        <div><strong id="hours">720</strong><span>Hours</span></div>
+        <div><strong id="minutes">43,200</strong><span>Minutes</span></div>
+      </div>
+      <p class="counter-note">...and I still want more time with you ♥</p>
+    </section>
+
+    <section id="memories" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">OUR CAMERA ROLL</p>
+        <h2>Little moments,<br><em>big memories.</em></h2>
+        <p></p>
+      </div>
+
+      <!-- =====================================================
+           EDIT ZONE #3: PHOTOS
+           Put photos inside /images.
+           Then duplicate a <figure> block and change filename/caption.
+           Example: images/photo1.jpg
+      ====================================================== -->
+      <div class="photo-grid">
+        <figure class="memory-card">
+          <div class="media-placeholder">Add<br>images/photo1.jpg</div>
+          <figcaption>Our first favourite memory ♥</figcaption>
+        </figure>
+      </div>
+      <div class="code-tip">
+        <code>&lt;img src="images/photo1.jpg" alt="Us"&gt;</code>
+      </div>
+    </section>
+
+    <section id="videos" class="section dark-panel">
+      <div class="section-heading">
+        <p class="eyebrow">PRESS PLAY</p>
+        <h2>US AGAIN😛<br><em></em></h2>
+      </div>
+
+      <!-- =====================================================
+           EDIT ZONE #4: VIDEOS
+           Put MP4 files inside /videos.
+           Change video1.mp4 etc. Keep playsinline for phones.
+      ====================================================== -->
+      <div class="video-grid">
+        <article class="video-card">
+          <video controls playsinline preload="metadata">
+            <source src="videos/video1.mp4" type="video/mp4">
+          </video>
+          <p>The kind of moment I never want to lose.</p>
+        </article>
+        <article class="video-card">
+          <video controls playsinline preload="metadata">
+            <source src="videos/video2.mp4" type="video/mp4">
+          </video>
+          <p>I could watch this one a hundred times ♥</p>
+        </article>
+        <article class="video-card">
+          <video controls playsinline preload="metadata">
+            <source src="videos/video3.mp4" type="video/mp4">
+          </video>
+          <p>😛😛😛😛😛😛</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="reasons" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">JUST IN CASE YOU FORGOT</p>
+        <h2>A few reasons<br><em>I adore you.</em></h2>
+        <p>Tap each card.</p>
+      </div>
+
+      <!-- EDIT ZONE #5: REASONS -->
+      <div class="reasons-grid">
+        <button class="reason-card" data-answer="YOU ARE MY WIFEYYYYYY"><span>01</span>😛</button>
+        <button class="reason-card" data-answer="EVEN SPENDING FEW MINUTES WITH YOU ARE VERY MEMORABLE TO ME"><span>02</span>😛</button>
+        <button class="reason-card" data-answer="I can be completely myself around you, and that means everything"><span>03</span>😛</button>
+        <button class="reason-card" data-answer="EVEN IF I FIGHT I WILL FIND REASON TO COME BACK TO YOU"><span>04</span>😛</button>
+      </div>
+    </section>
+
+    <section id="letter" class="section letter-section">
+      <p class="eyebrow">ONE LAST THING</p>
+      <h2>I wrote you something.</h2>
+      <button id="letterBtn" class="primary-btn">Open My Letter 💌</button>
+
+      <!-- =====================================================
+           EDIT ZONE #6: FINAL LETTER
+           Replace the text inside .letter-paper.
+      ====================================================== -->
+      <div id="letterPaper" class="letter-paper hidden">
+        <p>My love,</p>
+        <p>
+          Somehow, one month has gone by already. It may only be the beginning,
+          but you've already given me so many moments I want to keep.
+        </p>
+        <p></p>
+        </p>
+        <p>
+          Happy one month. Here's to month two and hopefully a ridiculous
+          number of months after that.
+        </p>
+        <p class="signature">Always yours,<br><strong>Prajwal ♥</strong></p>
+      </div>
+    </section>
+
+    <footer>
+      Made with an unreasonable amount of love ♥
+    </footer>
+  </main>
+
+  <!-- OPTIONAL MUSIC:
+       Put a file called our-song.mp3 inside /music.
+       Browsers require a click before audio can start, so it starts
+       after "Open Our Story" is pressed. -->
+  <audio id="bgMusic" loop preload="none">
+    <source src="music/our-song.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
